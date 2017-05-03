@@ -1,0 +1,22 @@
+{
+  "name": "autoinject-issue",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node build dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "proprietary",
+  "private": true,
+  "devDependencies": {
+    "fuse-box": "^2.0.0-beta.6",
+    "fuse-box-typechecker": "git://github.com/fuse-box/fuse-box-typechecker.git",
+    "typescript": "^2.3.1"
+  },
+  "dependencies": {
+    "aurelia-bootstrapper": "^2.1.1",
+    "aurelia-fetch-client": "^1.1.2",
+    "fuse-box-aurelia-loader": "git://github.com/fuse-box/fuse-box-aurelia-loader.git"
+  }
+}
